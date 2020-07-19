@@ -182,6 +182,17 @@ section {
 }
 /*Small Devices*/
 @media(min-width:768px)and(max-width:991px){
+    .navbar-brand{
+       padding-top:10px;
+       height:70px;
+    }
+   .navbar-brand h1{
+       padding-top:10px;
+       font-size:5vw;/1vw=1% of viewport width/
+    }
+    #nav-list a{
+        font-size:1.5em;
+    }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
         float: left;
     }
